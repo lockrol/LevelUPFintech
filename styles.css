@@ -1,0 +1,68 @@
+:root{
+  --brand:#111827;
+  --accent:#40E0D0;
+}
+*{box-sizing:border-box}
+body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;}
+.brand{font-size:1.1rem}
+.logo-img{
+  height:32px;
+  width:auto;
+  display:block;
+}
+.hero{position:relative;overflow:hidden;background:linear-gradient(180deg,#f8fafc,transparent)}
+.hero .display-5{letter-spacing:-.02em}
+.hero .glass{
+  border-radius:18px;background:rgba(255,255,255,.7);
+  border:1px solid rgba(0,0,0,.05);backdrop-filter:blur(8px)
+}
+.hero .mini-card{
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:14px;padding:14px;background:#fff
+}
+.hero .mini-label{font-size:.8rem;color:#6b7280}
+.hero .mini-value{font-size:1.1rem;font-weight:700}
+.hero .mini-value.negative{color:#dc3545}
+.hero .hero-bg{
+  position:absolute;inset:auto 0 0 0;height:160px;
+  background:radial-gradient(1200px 220px at 50% 0,rgba(64,224,208,.18),transparent 70%)
+}
+.feature-card .icon{font-size:1.6rem;margin-bottom:.5rem}
+#precos .destaque{transform:translateY(-6px)}
+footer{background:#fff}
+
+/* cores Tiffany no Bootstrap */
+.btn-primary{
+  background-color:var(--accent);
+  border-color:var(--accent);
+}
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color:#34c9ba;
+  border-color:#34c9ba;
+}
+.btn-outline-primary{
+  color:var(--accent);
+  border-color:var(--accent);
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus{
+  background-color:var(--accent);
+  border-color:var(--accent);
+  color:#fff;
+}
+.text-bg-primary{
+  background-color:var(--accent)!important;
+}
+.progress-bar{
+  background-color:var(--accent);
+}
+.border-primary{
+  border-color:var(--accent)!important;
+}
+.nav-link{
+  color:#4b5563;
+}
+.nav-link:hover{
+  color:var(--accent);
+}
