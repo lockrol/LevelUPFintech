@@ -1,4 +1,4 @@
-# 💚 Level Up Fintech — Tela da Fase 4 (Frontend)
+# 💚 Level Up Fintech — Tela da Fase 4 - View
 
 Este projeto faz parte da Fase 4 da FIAP, onde o objetivo é recriar uma tela da Fintech desenvolvida nas fases anteriores, utilizando **HTML**, **CSS** e **Bootstrap**, seguindo identidade visual própria e boas práticas de desenvolvimento frontend.
 
