@@ -48,7 +48,4 @@ Toda a interface segue a paleta **verde/teal** inspirada no protótipo da Phase 
 
 Não foi utilizado JavaScript, conforme diretrizes do desafio.
 
----
-
-## 📂 Estrutura do projeto
 
